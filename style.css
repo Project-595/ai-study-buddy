@@ -287,35 +287,39 @@ nav a:hover {
    SOFT COLOR CAMPAIGN SECTIONS
    ========================= */
 
+/* =========================
+   LIGHT PASTEL SECTIONS
+   ========================= */
+
 .study-block {
     background:
-        radial-gradient(circle at 85% 20%, rgba(129, 140, 248, 0.35), transparent 30%),
-        linear-gradient(135deg, #eef2ff, #dbeafe);
+        radial-gradient(circle at 85% 20%, rgba(196, 181, 253, 0.22), transparent 30%),
+        linear-gradient(135deg, #f7f5ff, #eef5ff);
 }
 
 .create-block {
     background:
-        radial-gradient(circle at 15% 80%, rgba(244, 114, 182, 0.28), transparent 30%),
-        linear-gradient(135deg, #fff1f2, #fce7f3);
+        radial-gradient(circle at 15% 80%, rgba(251, 207, 232, 0.22), transparent 30%),
+        linear-gradient(135deg, #fff8fb, #fff1f6);
 }
 
 .research-block {
     background:
-        radial-gradient(circle at 85% 20%, rgba(45, 212, 191, 0.3), transparent 30%),
-        linear-gradient(135deg, #ecfeff, #d1fae5);
+        radial-gradient(circle at 85% 20%, rgba(191, 219, 254, 0.25), transparent 30%),
+        linear-gradient(135deg, #f5f9ff, #f4f0ff);
 }
 
 .build-block {
     background:
-        radial-gradient(circle at 15% 20%, rgba(251, 146, 60, 0.3), transparent 30%),
-        linear-gradient(135deg, #fff7ed, #ede9fe);
+        radial-gradient(circle at 15% 20%, rgba(254, 215, 170, 0.20), transparent 30%),
+        linear-gradient(135deg, #fffaf5, #f8f3ff);
 }
 
 
-/* Dark text on the lighter campaign sections */
+/* Dark elegant typography */
 
 .feature-block .section-label {
-    color: #6366f1;
+    color: #7c3aed;
 }
 
 .feature-content h2 {
@@ -323,9 +327,8 @@ nav a:hover {
 }
 
 .feature-content > p:not(.section-label) {
-    color: #4b5563;
+    color: #6b7280;
 }
-
 /* =========================
    CATEGORIES
    ========================= */
