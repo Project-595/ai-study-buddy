@@ -214,3 +214,44 @@
         font-size: 32px;
     }
 }
+/* =========================
+   ALIGNMENT & TYPOGRAPHY FIX
+   ========================= */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Keep headings clean and closer to the original design */
+
+.hero h1 {
+    font-size: 52px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+/* Center the feature section */
+
+.feature-section {
+    text-align: center !important;
+}
+
+.feature-content {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.feature-content > p:not(.section-label) {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Keep the checklist neat while centered on the page */
+
+.feature-list {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+}
