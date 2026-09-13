@@ -572,12 +572,12 @@ footer {
         padding: 75px 20px;
         border-radius: 25px;
     }
-}/* Study Smart - Clean White */
+}/* Study Smart - Soft Off White */
 
 .tips-section {
-    background: #ffffff;
-    border-top: 1px solid #f0f0f0;
-    border-bottom: 1px solid #f0f0f0;
+    background: #FAFAF7;
+    border-top: 1px solid #F1F1EC;
+    border-bottom: 1px solid #F1F1EC;
 }
 
 .tips-section .section-label {
