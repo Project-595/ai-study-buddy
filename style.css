@@ -255,3 +255,20 @@ section h2 {
     margin: 30px auto;
     text-align: left;
 }
+/* Center main homepage sections */
+
+main > section:not(.feature-section) {
+    text-align: center;
+}
+
+main > section:not(.feature-section) > h2,
+main > section:not(.feature-section) > p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Keep cards themselves professionally left-aligned */
+
+.card {
+    text-align: left;
+}
