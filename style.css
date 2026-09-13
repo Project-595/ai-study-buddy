@@ -572,33 +572,16 @@ footer {
         padding: 75px 20px;
         border-radius: 25px;
     }
-}/* Study Smart - Soft READY? Gradient */
+}/* Study Smart - Clean White */
 
 .tips-section {
-    background:
-        radial-gradient(
-            circle at 18% 50%,
-            rgba(190, 120, 220, 0.12),
-            transparent 32%
-        ),
-        radial-gradient(
-            circle at 82% 50%,
-            rgba(80, 150, 230, 0.12),
-            transparent 32%
-        ),
-        linear-gradient(
-            110deg,
-            #f4efff 0%,
-            #fff5fa 50%,
-            #f1f7ff 100%
-        );
-
-    border-top: 1px solid #eee8f8;
-    border-bottom: 1px solid #eee8f8;
+    background: #ffffff;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .tips-section .section-label {
-    color: #6842a8;
+    color: #6b3fb5;
 }
 
 .tips-section h2 {
