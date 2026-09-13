@@ -573,3 +573,22 @@ footer {
         border-radius: 25px;
     }
 }
+/* Study Smart - Minimal Pastel Theme */
+
+.tips-section {
+    background: #f7f5ff;
+    border-top: 1px solid #e9e2ff;
+    border-bottom: 1px solid #e9e2ff;
+}
+
+.tips-section .section-label {
+    color: #7c3aed;
+}
+
+.tips-section h2 {
+    color: #24212f;
+}
+
+.tips-section p {
+    color: #6b6875;
+}
