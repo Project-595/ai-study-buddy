@@ -272,3 +272,26 @@ main > section:not(.feature-section) > p {
 .card {
     text-align: left;
 }
+/* =========================
+   GEN-Z CLASSY ALIGNMENT
+   ========================= */
+
+main > section {
+    text-align: center !important;
+}
+
+main > section > h2,
+main > section > p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.categories {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    text-align: left;
+}
