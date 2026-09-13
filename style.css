@@ -573,22 +573,33 @@ footer {
         border-radius: 25px;
     }
 }
-/* Study Smart - Soft version of the READY? gradient */
+/* Study Smart - Soft READY? Gradient */
 
 .tips-section {
-    background: linear-gradient(
-        135deg,
-        #f5f0ff 0%,
-        #fff7fb 50%,
-        #f1f7ff 100%
-    );
+    background:
+        radial-gradient(
+            circle at 18% 50%,
+            rgba(190, 120, 220, 0.12),
+            transparent 32%
+        ),
+        radial-gradient(
+            circle at 82% 50%,
+            rgba(80, 150, 230, 0.12),
+            transparent 32%
+        ),
+        linear-gradient(
+            110deg,
+            #f4efff 0%,
+            #fff5fa 50%,
+            #f1f7ff 100%
+        );
 
     border-top: 1px solid #eee8f8;
     border-bottom: 1px solid #eee8f8;
 }
 
 .tips-section .section-label {
-    color: #6b3fb5;
+    color: #6842a8;
 }
 
 .tips-section h2 {
