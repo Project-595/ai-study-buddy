@@ -283,43 +283,48 @@ nav a:hover {
 
 /* Study */
 
+/* =========================
+   SOFT COLOR CAMPAIGN SECTIONS
+   ========================= */
+
 .study-block {
     background:
-        radial-gradient(circle at 15% 30%, #22d3ee, transparent 25%),
-        radial-gradient(circle at 85% 70%, #8b5cf6, transparent 30%),
-        linear-gradient(135deg, #1e3a8a, #4c1d95);
+        radial-gradient(circle at 85% 20%, rgba(129, 140, 248, 0.35), transparent 30%),
+        linear-gradient(135deg, #eef2ff, #dbeafe);
 }
-
-
-/* Create */
 
 .create-block {
     background:
-        radial-gradient(circle at 80% 25%, #fb7185, transparent 27%),
-        radial-gradient(circle at 20% 80%, #f59e0b, transparent 30%),
-        linear-gradient(135deg, #9f1239, #c026d3);
+        radial-gradient(circle at 15% 80%, rgba(244, 114, 182, 0.28), transparent 30%),
+        linear-gradient(135deg, #fff1f2, #fce7f3);
 }
-
-
-/* Research */
 
 .research-block {
     background:
-        radial-gradient(circle at 20% 20%, #34d399, transparent 27%),
-        radial-gradient(circle at 80% 80%, #06b6d4, transparent 30%),
-        linear-gradient(135deg, #064e3b, #155e75);
+        radial-gradient(circle at 85% 20%, rgba(45, 212, 191, 0.3), transparent 30%),
+        linear-gradient(135deg, #ecfeff, #d1fae5);
 }
-
-
-/* Build */
 
 .build-block {
     background:
-        radial-gradient(circle at 75% 25%, #facc15, transparent 25%),
-        radial-gradient(circle at 20% 75%, #f97316, transparent 30%),
-        linear-gradient(135deg, #7c2d12, #7e22ce);
+        radial-gradient(circle at 15% 20%, rgba(251, 146, 60, 0.3), transparent 30%),
+        linear-gradient(135deg, #fff7ed, #ede9fe);
 }
 
+
+/* Dark text on the lighter campaign sections */
+
+.feature-block .section-label {
+    color: #6366f1;
+}
+
+.feature-content h2 {
+    color: #111827;
+}
+
+.feature-content > p:not(.section-label) {
+    color: #4b5563;
+}
 
 /* =========================
    CATEGORIES
