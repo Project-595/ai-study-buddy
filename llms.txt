@@ -25,5 +25,6 @@ The website provides informational resources to help students use AI more effect
 - [Check AI Answers for Accuracy](https://project-595.github.io/ai-study-buddy/blog/check-ai-answers-for-accuracy.html): Why and how to verify AI-generated factual claims.
 - [Learn Coding with AI](https://project-595.github.io/ai-study-buddy/blog/learn-coding-with-ai.html): Using AI to support learning coding skills.
 - [How to Use AI to Study Effectively](https://project-595.github.io/ai-study-buddy/blog/how-to-use-ai-to-study-effectively.html): A step-by-step guide to using AI for understanding topics, summarizing notes, creating flashcards, practising active recall and preparing for exams.
+- [How to Debug Code with AI](https://project-595.github.io/ai-study-buddy/blog/how-to-debug-code-with-ai.html): A step-by-step beginner's guide to identifying programming errors, understanding bugs and testing AI-assisted solutions in HTML, CSS, JavaScript and Python.
 
 
