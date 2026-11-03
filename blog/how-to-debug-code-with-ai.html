@@ -1,0 +1,530 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How to Debug Code with AI: A Beginner's Guide | AI Study Buddy</title>
+    <meta name="description" content="Learn how to debug code with AI using practical prompts and examples. Understand programming errors, fix bugs and test solutions in HTML, CSS, JavaScript and Python.">
+
+    <link rel="canonical" href="https://project-595.github.io/ai-study-buddy/blog/how-to-debug-code-with-ai.html">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../style.css">
+
+<style>
+    .article-content {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 70px 25px 100px;
+    }
+
+    .article-content h2 {
+        font-size: clamp(28px, 4vw, 40px);
+        line-height: 1.2;
+        letter-spacing: -1px;
+        margin: 55px 0 18px;
+        color: #111827;
+    }
+
+    .article-content h3 {
+        font-size: 23px;
+        margin: 30px 0 12px;
+        color: #111827;
+    }
+
+    .article-content p,
+    .article-content li {
+        color: #4b5563;
+        font-size: 17px;
+        line-height: 1.85;
+    }
+
+    .article-content p {
+        margin: 0 0 20px;
+    }
+
+    .article-content ul,
+    .article-content ol {
+        padding-left: 26px;
+        margin: 15px 0 25px;
+    }
+
+    .article-content li {
+        margin-bottom: 10px;
+    }
+
+    .article-content a {
+        color: #6d28d9;
+        font-weight: 700;
+    }
+
+    .article-content blockquote {
+        padding: 25px;
+        margin: 25px 0;
+        background: #f5f3ff;
+        border: 1px solid #ddd6fe;
+        border-radius: 18px;
+        color: #3730a3;
+        line-height: 1.85;
+    }
+
+    .article-content pre {
+        overflow-x: auto;
+        padding: 20px;
+        margin: 20px 0 25px;
+        background: #f3f4f6;
+        border: 1px solid #e5e7eb;
+        border-radius: 14px;
+        color: #1f2937;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .article-content code {
+        font-family: Consolas, Monaco, monospace;
+    }
+
+    @media (max-width: 600px) {
+        .article-content {
+            padding: 45px 20px 70px;
+        }
+
+        .article-content p,
+        .article-content li {
+            font-size: 16px;
+        }
+    }
+</style>
+
+    <meta name="robots" content="index, follow">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFCKD1TD4H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-NFCKD1TD4H');
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "How to Debug Code with AI: A Step-by-Step Guide for Beginners",
+      "description": "Learn how to debug code with AI using practical prompts and examples. Understand programming errors, fix bugs and test solutions in HTML, CSS, JavaScript and Python.",
+      "url": "https://project-595.github.io/ai-study-buddy/blog/how-to-debug-code-with-ai.html",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://project-595.github.io/ai-study-buddy/blog/how-to-debug-code-with-ai.html"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "AI Study Buddy",
+        "url": "https://project-595.github.io/ai-study-buddy/about.html"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Study Buddy",
+        "url": "https://project-595.github.io/ai-study-buddy/"
+      },
+      "inLanguage": "en"
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">AI Study Buddy</div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../ai-tools.html">AI Tools</a></li>
+                <li><a href="../study-tools.html">Study Tools</a></li>
+                <li><a href="../blog.html">Study Tips</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="hero-label">AI STUDY BUDDY • PROGRAMMING SKILLS</p>
+            <h1>HOW TO DEBUG CODE WITH AI.</h1>
+            <p>
+                Learn how to understand programming errors, investigate bugs
+                and test solutions with AI. Follow practical examples and
+                develop debugging skills instead of blindly copying fixes.
+            </p>
+        </section>
+
+        <article class="article-content">
+
+            <section>
+                <h2>What is debugging?</h2>
+                <p>
+                    Debugging is the process of finding, understanding and
+                    fixing problems in a computer program. A bug can cause
+                    code to crash, produce an incorrect result or behave
+                    differently from what you expected.
+                </p>
+                <p>
+                    AI tools can help explain error messages, identify
+                    possible causes and suggest ways to investigate a
+                    problem. However, an AI-generated fix is not
+                    automatically correct. You still need to understand
+                    and test the solution.
+                </p>
+            </section>
+
+            <section>
+                <h2>1. Identify the error before asking AI</h2>
+                <p>
+                    Start by running your program and observing what happens.
+                    Does it display an error? Does the page look different
+                    from what you expected? Does the program produce the
+                    wrong output?
+                </p>
+                <p>
+                    Record the exact error message and identify the part
+                    of your code that may be responsible. The more specific
+                    your information, the easier it is to investigate
+                    the problem.
+                </p>
+                <blockquote>
+                    I am learning JavaScript. My program should display
+                    a message when a button is clicked, but nothing happens.
+                    Help me identify what information I should check before
+                    attempting to fix the problem. Do not rewrite my code yet.
+                </blockquote>
+            </section>
+
+            <section>
+                <h2>2. Give AI your code and error message</h2>
+                <p>
+                    Provide the relevant section of your code along with
+                    the exact error message. Include what you expected
+                    to happen and what actually happened.
+                </p>
+                <p>
+                    Avoid pasting an entire project when a smaller example
+                    is enough. Remove passwords, API keys, private
+                    credentials and sensitive information before sharing code.
+                </p>
+                <blockquote>
+                    I am a beginner learning [programming language].
+                    Here is the relevant code: [paste code].
+
+                    The error message is: [paste exact error].
+
+                    I expected [expected behaviour], but instead
+                    [actual behaviour].
+
+                    Help me understand the problem without immediately
+                    rewriting the complete program.
+                </blockquote>
+            </section>
+
+            <section>
+                <h2>3. Ask AI to explain the cause</h2>
+                <p>
+                    An error message tells you that something went wrong,
+                    but you also need to understand why it happened.
+                    Ask AI to explain the likely cause in beginner-friendly
+                    language.
+                </p>
+                <blockquote>
+                    Explain what this error message means in simple terms.
+                    Identify the line that may be causing the problem,
+                    explain why it happens and show me how to investigate
+                    the cause. Give me a hint before providing a solution.
+                </blockquote>
+                <p>
+                    If AI suggests several possible causes, investigate
+                    them one at a time. Do not assume its first explanation
+                    is necessarily correct.
+                </p>
+            </section>
+
+            <section>
+                <h2>4. Understand the suggested fix</h2>
+                <p>
+                    Once you have a possible cause, ask AI to suggest a
+                    focused correction. Request an explanation of what
+                    changed and why the change should solve the problem.
+                </p>
+                <blockquote>
+                    Based on the error and code I provided, suggest the
+                    smallest possible correction. Show the original
+                    problematic code and the corrected version. Explain
+                    each change and why it may fix the issue.
+                </blockquote>
+                <p>
+                    Avoid accepting a complete rewritten program when
+                    only one small correction is necessary. Understanding
+                    the change is an important part of learning to code.
+                </p>
+            </section>
+
+            <section>
+                <h2>5. Practise debugging HTML and CSS</h2>
+                <p>
+                    HTML and CSS problems often appear as visual issues.
+                    A missing closing tag, incorrect selector or conflicting
+                    style can make a webpage look different from what
+                    you intended.
+                </p>
+
+                <h3>Example: CSS selector problem</h3>
+                <p>
+                    Suppose you want all elements with the class
+                    <code>card</code> to have a light background, but
+                    your CSS is targeting a different class name.
+                </p>
+                <pre><code>/* HTML */
+&lt;div class="card"&gt;
+    Study with AI
+&lt;/div&gt;
+
+/* Incorrect CSS */
+.cards {
+    background: lightblue;
+}
+
+/* Corrected CSS */
+.card {
+    background: lightblue;
+}</code></pre>
+                <p>
+                    In this example, the CSS selector uses
+                    <code>.cards</code>, while the HTML element uses
+                    <code>card</code>. The selector names do not match.
+                </p>
+                <blockquote>
+                    My HTML element uses the class [class name], but the
+                    expected CSS styling is not appearing. Check whether
+                    my selectors match the HTML classes and explain
+                    any mismatch.
+                </blockquote>
+            </section>
+
+            <section>
+                <h2>6. Practise debugging JavaScript</h2>
+                <p>
+                    JavaScript bugs can involve incorrect variable names,
+                    missing event listeners, unexpected values or errors
+                    in program logic.
+                </p>
+
+                <h3>Example: Incorrect variable name</h3>
+                <pre><code>const student = "Alex";
+
+console.log(studnet);
+
+// Corrected version
+console.log(student);</code></pre>
+                <p>
+                    The first version uses <code>studnet</code> instead
+                    of <code>student</code>. Because the variable names
+                    do not match, JavaScript cannot find the intended
+                    variable.
+                </p>
+                <blockquote>
+                    Review this JavaScript code for possible errors.
+                    Explain the error message, identify the incorrect
+                    variable or statement and show me how to verify
+                    the correction.
+                </blockquote>
+            </section>
+
+            <section>
+                <h2>7. Practise debugging Python</h2>
+                <p>
+                    Python errors often include useful information about
+                    the line where execution failed. Read the traceback
+                    carefully and look for the error type and relevant
+                    line number.
+                </p>
+
+                <h3>Example: Incorrect variable name</h3>
+                <pre><code>student_name = "Alex"
+
+print(studnet_name)
+
+# Corrected version
+print(student_name)</code></pre>
+                <p>
+                    The variable is defined as <code>student_name</code>,
+                    but the print statement uses
+                    <code>studnet_name</code>. Correcting the spelling
+                    makes both names match.
+                </p>
+                <blockquote>
+                    I am learning Python. Explain this traceback in
+                    beginner-friendly language. Identify the likely
+                    cause, explain how to correct it and suggest
+                    another small exercise to practise the same concept.
+                </blockquote>
+            </section>
+
+            <section>
+                <h2>8. Test the solution after applying it</h2>
+                <p>
+                    A correction that removes one error may still leave
+                    other problems in the program. Run your code again
+                    after making the change.
+                </p>
+                <p>
+                    Test normal inputs, unusual inputs and situations
+                    where the program might fail. Compare the actual
+                    output with what you originally expected.
+                </p>
+                <ul>
+                    <li>Run the program after making the correction.</li>
+                    <li>Check whether the original error has disappeared.</li>
+                    <li>Try different inputs and conditions.</li>
+                    <li>Look for new errors or unexpected behaviour.</li>
+                    <li>Review the code to understand why the fix works.</li>
+                </ul>
+                <blockquote>
+                    Help me create a small test checklist for this
+                    corrected code. Include normal inputs, unusual
+                    inputs and possible edge cases. Do not assume
+                    the program is correct just because it runs.
+                </blockquote>
+            </section>
+
+            <section>
+                <h2>9. Learn how to prevent similar bugs</h2>
+                <p>
+                    Debugging should help you improve your programming
+                    knowledge, not just remove the current error.
+                    Ask AI to explain the underlying concept so you
+                    can recognise similar mistakes in future projects.
+                </p>
+                <blockquote>
+                    Explain the programming concept behind this bug.
+                    Give me three small exercises that will help me
+                    recognise and avoid similar mistakes. Do not
+                    provide the answers until I attempt them.
+                </blockquote>
+            </section>
+
+            <section>
+                <h2>Common mistakes when using AI for debugging</h2>
+
+                <h3>Copying fixes without understanding them</h3>
+                <p>
+                    A suggested correction may introduce new problems.
+                    Understand the change and test it before relying
+                    on the result.
+                </p>
+
+                <h3>Providing incomplete information</h3>
+                <p>
+                    A vague description without relevant code or the
+                    exact error message can lead to inaccurate suggestions.
+                    Provide enough context to investigate the problem.
+                </p>
+
+                <h3>Changing too many things at once</h3>
+                <p>
+                    If you change several parts of a program simultaneously,
+                    it becomes harder to identify which change caused
+                    the result. Make focused corrections and test them
+                    individually.
+                </p>
+
+                <h3>Assuming AI is always correct</h3>
+                <p>
+                    AI can misunderstand code, overlook edge cases or
+                    suggest outdated approaches. Verify important
+                    information using reliable documentation and
+                    practical testing.
+                </p>
+            </section>
+
+            <section>
+                <h2>A simple AI debugging workflow</h2>
+                <ol>
+                    <li>Run your program and observe the problem.</li>
+                    <li>Record the exact error message.</li>
+                    <li>Identify the relevant code section.</li>
+                    <li>Ask AI to explain the possible cause.</li>
+                    <li>Review the suggested correction.</li>
+                    <li>Apply one focused change.</li>
+                    <li>Run the program and test different inputs.</li>
+                    <li>Explain what caused the bug and how you fixed it.</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Frequently asked questions</h2>
+
+                <h3>Can AI fix coding errors automatically?</h3>
+                <p>
+                    AI can suggest corrections and explain possible
+                    causes, but you should review and test every
+                    suggested change. It cannot guarantee that
+                    the resulting program is correct.
+                </p>
+
+                <h3>Can beginners use AI to debug code?</h3>
+                <p>
+                    Yes. Beginners can use AI to understand error
+                    messages and learn debugging concepts. Start
+                    with small examples and ask for explanations
+                    rather than complete replacements.
+                </p>
+
+                <h3>Which programming languages can AI help debug?</h3>
+                <p>
+                    AI tools can assist with many programming
+                    languages, including Python, JavaScript, HTML
+                    and CSS. The quality of assistance depends
+                    on the information provided and the tool used.
+                </p>
+
+                <h3>Should I trust every AI-generated correction?</h3>
+                <p>
+                    No. Check the suggested changes, consult reliable
+                    documentation and test the program with different
+                    inputs before relying on the result.
+                </p>
+            </section>
+
+            <section>
+                <h2>Become better at debugging with practice</h2>
+                <p>
+                    Learning to debug code is an important part of
+                    becoming a programmer. Use AI to understand errors,
+                    investigate possible causes and receive helpful
+                    explanations, but keep testing and problem-solving
+                    at the centre of your learning.
+                </p>
+                <p>
+                    If you are still developing your programming
+                    foundations, read our guide on
+                    <a href="learn-coding-with-ai.html">
+                        how students can use AI to learn coding
+                    </a>.
+                    You can also
+                    <a href="../coding-tools.html">explore AI coding tools</a>
+                    or return to <a href="../blog.html">all study tips</a>.
+                </p>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AI Study Buddy. Helping students learn with AI.</p>
+        <p>
+            <a href="../about.html">About</a> |
+            <a href="../contact.html">Contact</a> |
+            <a href="../blog.html">Study Tips</a>
+        </p>
+    </footer>
+</body>
+</html>
